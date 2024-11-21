@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 300px;
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.cactus {
+    border-radius: 8px;
+}
+
+
+.card {
+    background-color: #Ffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 380px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+
+.card-body {
+    display: flex;
+    align-items: start;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+/* Contenido dentro de la tarjeta */
+
+.tag {
+    background-color: #F2EAFD;
+    color: #7C19EE;
+    font-family: "sora";
+    width: 20%;
+    padding: 4px 6px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 40px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title{
+    font-family: "sora";
+    color: #20293A;
+    margin: 20px 0px 0px 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.description{
+    font-family: "sora";
+    color: #394150;
+    font-size: 14px;
+    margin: 5px 0px 0px 20px;
+    text-align: start;
+    line-height: 22px;
+    width: 90%;
+}
+
+.line-divisor{
+    background-color: #E5EAF0;
+    margin-top: 20px;
+    width: 100%;
+    height: 1px;
+}
+
+/* autor section */
+
+.author {
+    color: #394150;
+    margin: 10px 0px 0px 20px;
+    font-family: "sora";
+    font-size: 12px;
+    padding: 10px 0px 10px 0px ;
+}
+
+.author-info {
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 20px;
+}
